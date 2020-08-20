@@ -1,0 +1,39 @@
+.container{
+    max-width: 1300px;
+    margin: 0 auto;
+
+    padding: 15px;
+}
+
+.set-price{
+    display: none;
+}
+.task{
+    background-color: #c7c7c7;
+    margin-bottom: 15px;
+    padding: 15px;
+}
+.js-task3{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+#validation-input {
+    border: 3px solid #bdbdbd;
+    outline: none;
+}
+
+#validation-input.valid {
+    border-color: #4caf50;
+}
+
+#validation-input.invalid {
+    border-color: #f44336;
+}
+
+
+.boxes {
+    display: flex;
+}
